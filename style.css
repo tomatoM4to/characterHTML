@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: linear-gradient(45deg, Violet, Orange);
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.select-container {
+    display: flex;
+    width: 100%;
+}
+
+.select {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    width: 50%;
+}
+
+
+.input {
+    border: 1px solid #D3D3D3;
+    background-color: transparent;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.material-icons {
+    border: 1px solid #D3D3D3;
+    height: 52px;
+    border-left: none;
+    border-radius: 5px;
+}
+
+.login {
+    width: 90%;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+.kakao {
+    margin-top: 10px;
+    width: 90%;
+    color: black;
+    border: none;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+.apple {
+    width: 90%;
+    margin-top: 10px;
+    color: black;
+    border: 1px solid #D3D3D3;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.text-container {
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+    min-width: 400px;
+    padding: 20px;
+
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
